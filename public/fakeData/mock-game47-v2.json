@@ -1,0 +1,4923 @@
+{
+    "Scenario_A1": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 1,
+                                "Permit": 10,
+                                "Name": 1
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_A1",
+                            "MemberBalance": 500
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 200
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 398
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 178
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        132,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 500
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [],
+                    "Banker": 0
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_A1",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 1,
+                        "Option": 165,
+                        "WinLost": 156.75,
+                        "Entities": [
+                            "WD",
+                            "WD"
+                        ],
+                        "Award": 30
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -66,
+                        "Entities": [
+                            "D003",
+                            "WD"
+                        ],
+                        "Award": 7
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 33,
+                        "WinLost": -33,
+                        "Entities": [
+                            "D008",
+                            "D008"
+                        ],
+                        "Award": 28
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -66,
+                        "Entities": [
+                            "D001",
+                            "D009"
+                        ],
+                        "Award": 0
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 656.75,
+                "MemberCode": "Scenario_A1"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        }
+    ],
+    "Scenario_A2": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 1,
+                                "Permit": 10,
+                                "Name": 1
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_A2",
+                            "MemberBalance": 500
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 200
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 398
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 178
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        132,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 500
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [],
+                    "Banker": 0
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_A2",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 0,
+                        "Option": 165,
+                        "WinLost": -100.65,
+                        "Entities": [
+                            "D002",
+                            "D004"
+                        ],
+                        "Award": 18
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 62.7,
+                        "Entities": [
+                            "D009",
+                            "D009"
+                        ],
+                        "Award": 26
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 33,
+                        "WinLost": -33,
+                        "Entities": [
+                            "D001",
+                            "D002"
+                        ],
+                        "Award": 9
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 62.7,
+                        "Entities": [
+                            "D008",
+                            "WD"
+                        ],
+                        "Award": 22
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 399.35,
+                "MemberCode": "Scenario_A2"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        }
+    ],
+    "Scenario_B1": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 10,
+                                "Permit": 100,
+                                "Name": 3
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_B1",
+                            "MemberBalance": 500
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 2000
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 2898
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 978
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        15,
+                        31,
+                        50
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 200,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 200,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 500
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        1,
+                        16,
+                        33,
+                        49
+                    ],
+                    "Banker": 2
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 0,
+                "Option": 49,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 10
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_B1",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 1,
+                        "Option": 49,
+                        "WinLost": 465.5,
+                        "Entities": [
+                            "D002",
+                            "D002"
+                        ],
+                        "Award": 5
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 627,
+                        "Entities": [
+                            "D005",
+                            "D007"
+                        ],
+                        "Award": 6
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 181,
+                        "WinLost": -1810,
+                        "Entities": [
+                            "D003",
+                            "D007"
+                        ],
+                        "Award": 0
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 627,
+                        "Entities": [
+                            "D004",
+                            "D005"
+                        ],
+                        "Award": 27
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    2
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 965.5,
+                "MemberCode": "Scenario_B1"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        }
+    ],
+    "Scenario_B2": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 10,
+                                "Permit": 100,
+                                "Name": 3
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_B2",
+                            "MemberBalance": 500
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 2000
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 2898
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 978
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        15,
+                        31,
+                        50
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 200,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 200,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 500
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        1,
+                        16,
+                        33,
+                        49
+                    ],
+                    "Banker": 2
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 0,
+                "Option": 49,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 10
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_B2",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 0,
+                        "Option": 49,
+                        "WinLost": -490,
+                        "Entities": [
+                            "D005",
+                            "D006"
+                        ],
+                        "Award": 3
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 627,
+                        "Entities": [
+                            "D005",
+                            "D004"
+                        ],
+                        "Award": 27
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 181,
+                        "WinLost": 1092.5,
+                        "Entities": [
+                            "D005",
+                            "D001"
+                        ],
+                        "Award": 18
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -660,
+                        "Entities": [
+                            "D008",
+                            "D004"
+                        ],
+                        "Award": 6
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    2
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 10,
+                "MemberCode": "Scenario_B2"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        }
+    ],
+    "Scenario_1": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 3015678
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 2,
+                                "Permit": 20,
+                                "Name": 1
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Transfer",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 15678,
+                    "PlatformBalance": 3000000
+                },
+                "Status": "Success"
+            }
+        }
+    ],
+    "Scenario_2": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 678
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 50,
+                                "Permit": 500,
+                                "Name": 4
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Transfer",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 300,
+                    "PlatformBalance": 378
+                },
+                "Status": "Success"
+            }
+        }
+    ],
+    "Scenario_C": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 7788
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 5,
+                                "Permit": 50,
+                                "Name": 2
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Unmatch",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Result": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_C",
+                            "MemberBalance": 500
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 200
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 398
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 178
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        }
+    ],
+    "Scenario_7": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 2,
+                                "Permit": 20,
+                                "Name": 1
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_7",
+                            "MemberBalance": 100
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 260
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 189
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 78
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        15,
+                        31,
+                        50
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 100
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [],
+                    "Banker": 1
+                }
+            }
+        }
+    ],
+    "Scenario_18": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 100,
+                                "Permit": 1000,
+                                "Name": 5
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_18",
+                            "MemberBalance": 50000
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 50000
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 50000
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 50000
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        132,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 148,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 50000
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        1,
+                        33,
+                        66
+                    ],
+                    "Banker": 1
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 0,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 49,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 43400
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_18",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 6270,
+                        "Entities": [
+                            "WD",
+                            "WD"
+                        ],
+                        "Award": 30
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 148,
+                        "WinLost": 1520,
+                        "Entities": [
+                            "D003",
+                            "WD"
+                        ],
+                        "Award": 7
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 49,
+                        "WinLost": -4900,
+                        "Entities": [
+                            "D008",
+                            "D008"
+                        ],
+                        "Award": 28
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 33,
+                        "WinLost": -3300,
+                        "Entities": [
+                            "D001",
+                            "D009"
+                        ],
+                        "Award": 0
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 49670,
+                "MemberCode": "Scenario_18"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "ERROR",
+            "interval": 5,
+            "type": "OnGameError",
+            "data": "ERRG0048"
+        }
+    ],
+    "Scenario_19": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 10,
+                                "Permit": 100,
+                                "Name": 3
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "Scenario_19",
+                            "MemberBalance": 5000
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 5000
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 5000
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 5000
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        132,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 148,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 5000
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        1,
+                        33,
+                        66
+                    ],
+                    "Banker": 1
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 0,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 49,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 4340
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_19",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 1,
+                        "Option": 66,
+                        "WinLost": 627,
+                        "Entities": [
+                            "WD",
+                            "WD"
+                        ],
+                        "Award": 30
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 148,
+                        "WinLost": 152,
+                        "Entities": [
+                            "D003",
+                            "WD"
+                        ],
+                        "Award": 7
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 49,
+                        "WinLost": -490,
+                        "Entities": [
+                            "D008",
+                            "D008"
+                        ],
+                        "Award": 28
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 33,
+                        "WinLost": -330,
+                        "Entities": [
+                            "D001",
+                            "D009"
+                        ],
+                        "Award": 0
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 4340,
+                "MemberCode": "Scenario_19"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        148,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 4967
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [],
+                    "Banker": 0
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 49,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "Scenario_19",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 0,
+                        "Option": 148,
+                        "WinLost": -193,
+                        "Entities": [
+                            "WD",
+                            "WD"
+                        ],
+                        "Award": 30
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 49,
+                        "WinLost": 465.5,
+                        "Entities": [
+                            "D003",
+                            "WD"
+                        ],
+                        "Award": 7
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -660,
+                        "Entities": [
+                            "D008",
+                            "D008"
+                        ],
+                        "Award": 28
+                    },
+                    {
+                        "Result": 1,
+                        "Option": 33,
+                        "WinLost": 313.5,
+                        "Entities": [
+                            "D001",
+                            "D009"
+                        ],
+                        "Award": 0
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 4807,
+                "MemberCode": "Scenario_19"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "ERROR",
+            "interval": 5,
+            "type": "OnGameError",
+            "data": "ERRG0048"
+        }
+    ],
+    "LEO001": [
+        {
+            "state": "Game",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "Currency": {
+                        "Code": "RMB",
+                        "ISOCode": "CNY",
+                        "Rate": 1
+                    },
+                    "GameToken": "1808b924-9b42-413d-bd99-684f06555b2b",
+                    "Status": {
+                        "PlatformBalance": 1691.18
+                    },
+                    "SelectionList": [
+                        {
+                            "Data": {
+                                "Antes": 1,
+                                "Permit": 10,
+                                "Name": 1
+                            },
+                            "ID": 743,
+                            "Obsolescence": false
+                        }
+                    ]
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "Selection",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MatchResult": true
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "MATCHED",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:24-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 1,
+                "NextStageTime": "2022-03-24T02:23:25-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "OPENING",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:25-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 2,
+                "NextStageTime": "2022-03-24T02:23:27-04:00",
+                "CurrentRound": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Players": [
+                        {
+                            "MemberCode": "LEO001",
+                            "MemberBalance": 500
+                        },
+                        {
+                            "MemberCode": "L***02",
+                            "MemberBalance": 200
+                        },
+                        {
+                            "MemberCode": "L***03",
+                            "MemberBalance": 398
+                        },
+                        {
+                            "MemberCode": "L***04",
+                            "MemberBalance": 178
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        132,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 500
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [],
+                    "Banker": 0
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "LEO001",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 1,
+                        "Option": 165,
+                        "WinLost": 156.75,
+                        "Entities": [
+                            "D009",
+                            "D009"
+                        ],
+                        "Award": 26
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -66,
+                        "Entities": [
+                            "D003",
+                            "WD"
+                        ],
+                        "Award": 7
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 33,
+                        "WinLost": -33,
+                        "Entities": [
+                            "D008",
+                            "D008"
+                        ],
+                        "Award": 28
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -66,
+                        "Entities": [
+                            "D001",
+                            "D009"
+                        ],
+                        "Award": 0
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 656.75,
+                "MemberCode": "LEO001"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "NEW_GAME",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:27-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 3,
+                "NextStageTime": "2022-03-24T02:23:29-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:29-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 4,
+                "NextStageTime": "2022-03-24T02:23:34-04:00",
+                "CurrentRound": 1,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [
+                        0,
+                        3,
+                        66,
+                        132,
+                        200
+                    ]
+                }
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 132,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BIDDING",
+            "interval": 0.5,
+            "type": "OnBidding",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 0,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "GamePlay",
+            "interval": 1,
+            "type": "API",
+            "data": {
+                "Body": {
+                    "MemberBalance": 300
+                },
+                "Status": "Success"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 1,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:34-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 5,
+                "NextStageTime": "2022-03-24T02:23:39-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "Data": {
+                    "Options": [],
+                    "Banker": 0
+                }
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 1,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 2,
+                "Option": 33,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "BETTING",
+            "interval": 0.5,
+            "type": "OnBetting",
+            "data": {
+                "Time": "2022-06-30T05:33:33.2018953-04:00",
+                "BuCode": "BU003",
+                "GameRoundSn": 197558248,
+                "GameSn": 47,
+                "Member": 3,
+                "Option": 66,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHUFFLE",
+            "interval": 2,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:39-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 6,
+                "NextStageTime": "2022-03-24T02:23:41-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "RESULT",
+            "interval": 0.5,
+            "type": "OnResulting",
+            "data": {
+                "MemberCode": "LEO001",
+                "GameRoundSN": 197558248,
+                "ResultEntities": [
+                    {
+                        "Result": 1,
+                        "Option": 165,
+                        "WinLost": 156.75,
+                        "Entities": [
+                            "WD",
+                            "WD"
+                        ],
+                        "Award": 30
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -66,
+                        "Entities": [
+                            "D003",
+                            "WD"
+                        ],
+                        "Award": 7
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 33,
+                        "WinLost": -33,
+                        "Entities": [
+                            "D008",
+                            "D008"
+                        ],
+                        "Award": 28
+                    },
+                    {
+                        "Result": 0,
+                        "Option": 66,
+                        "WinLost": -66,
+                        "Entities": [
+                            "D001",
+                            "D009"
+                        ],
+                        "Award": 0
+                    }
+                ],
+                "BuCode": "BU003",
+                "AccountSn": 123456,
+                "GameSn": 47,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687",
+                "StartPoints": [
+                    6,
+                    3
+                ]
+            }
+        },
+        {
+            "state": "BALANCE",
+            "interval": 0.5,
+            "type": "OnBalanceUpdate",
+            "data": {
+                "Balance": 656.75,
+                "MemberCode": "LEO001"
+            }
+        },
+        {
+            "state": "DEAL",
+            "interval": 4,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:41-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 7,
+                "NextStageTime": "2022-03-24T02:23:45-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "SHOWDOWN",
+            "interval": 10,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:45-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 8,
+                "NextStageTime": "2022-03-24T02:23:55-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        },
+        {
+            "state": "REST",
+            "interval": 5,
+            "type": "OnRefreshGameRound",
+            "data": {
+                "ID": "ec44347b-7e7d-4458-a1df-7d92e918bde5",
+                "GameRoundSn": 197558248,
+                "BuCode": "BU003",
+                "GameSn": 47,
+                "SystemClock": "2022-03-24T02:23:55-04:00",
+                "Times": {
+                    "Matched": "2022-03-24T02:23:24-04:00",
+                    "Opening": "2022-03-24T02:23:25-04:00",
+                    "NewGame": "2022-03-24T02:23:27-04:00",
+                    "Bidding": "2022-03-24T02:23:29-04:00",
+                    "Betting": "2022-03-24T02:23:34-04:00",
+                    "Shuffle": "2022-03-24T02:23:39-04:00",
+                    "Deal": "2022-03-24T02:23:41-04:00",
+                    "Showdown": "2022-03-24T02:23:45-04:00",
+                    "Rest": "2022-03-24T02:23:55-04:00",
+                    "End": "2022-03-24T02:24:00-04:00"
+                },
+                "CurrentStage": 9,
+                "NextStageTime": "2022-03-24T02:24:00-04:00",
+                "CurrentRound": 2,
+                "RoomSettingSn": 743,
+                "RoomId": "0cbad10e-b2ba-4dab-a0c4-62d4ce2a8687"
+            }
+        }
+    ]
+}

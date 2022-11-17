@@ -1,0 +1,1178 @@
+[
+  {
+    "name": "OnTableMemberChanged",
+    "data": [{ "UserAmount": 24, "MessageKey": null }]
+  },
+  {
+    "name": "OnCurrentStatus",
+    "data": [
+      {
+        "GameRoundSn": 410559229,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "BetSlips": [],
+        "Stage": {
+          "BettingSecond": 15,
+          "GameRoundSn": 410559229,
+          "TableLimitSn": 102,
+          "BuCode": "BU003",
+          "GameSn": 36,
+          "MessageStartTime": 637922518170268300,
+          "MessageKey": "BU003_Game36_StageTimes_Table102_e4644a5d-0200-4944-ae4b-2f30fb996c32",
+          "SystemClock": "2022-07-01T05:57:05-04:00",
+          "ID": "1e0ad486-6e88-445d-93b2-8eed2f01cc02",
+          "Times": {
+            "NewGame": "2022-07-01T05:56:57-04:00",
+            "Betting": "2022-07-01T05:56:57-04:00",
+            "Shuffling": "2022-07-01T05:57:12-04:00",
+            "Deal": "2022-07-01T05:57:15-04:00",
+            "Showdown": "2022-07-01T05:57:21-04:00",
+            "Rest": "2022-07-01T05:57:27-04:00",
+            "End": "2022-07-01T05:57:28-04:00"
+          },
+          "CurrentStage": 2,
+          "NextStageTime": "2022-07-01T05:57:12-04:00",
+          "NextStage": 3,
+          "RemainingSeconds": 7
+        },
+        "GameSn": 36,
+        "MemberCode": "LEO007",
+        "ResultEntities": null,
+        "Entities": null,
+        "Awards": [],
+        "BetResults": [],
+        "Trends": [
+          { "Result": 1, "Tiger": { "Score": 5 }, "Dragon": { "Score": 5 } },
+          { "Result": 2, "Tiger": { "Score": 9 }, "Dragon": { "Score": 5 } },
+          { "Result": 2, "Tiger": { "Score": 5 }, "Dragon": { "Score": 4 } },
+          { "Result": 0, "Tiger": { "Score": 7 }, "Dragon": { "Score": 12 } },
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 13 } },
+          { "Result": 1, "Tiger": { "Score": 1 }, "Dragon": { "Score": 1 } },
+          { "Result": 1, "Tiger": { "Score": 9 }, "Dragon": { "Score": 9 } },
+          { "Result": 0, "Tiger": { "Score": 1 }, "Dragon": { "Score": 7 } },
+          { "Result": 0, "Tiger": { "Score": 10 }, "Dragon": { "Score": 11 } },
+          { "Result": 0, "Tiger": { "Score": 7 }, "Dragon": { "Score": 10 } },
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 12 } },
+          { "Result": 2, "Tiger": { "Score": 8 }, "Dragon": { "Score": 5 } },
+          { "Result": 2, "Tiger": { "Score": 9 }, "Dragon": { "Score": 5 } },
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 13 } },
+          { "Result": 2, "Tiger": { "Score": 7 }, "Dragon": { "Score": 5 } },
+          { "Result": 0, "Tiger": { "Score": 6 }, "Dragon": { "Score": 7 } },
+          { "Result": 0, "Tiger": { "Score": 6 }, "Dragon": { "Score": 10 } },
+          { "Result": 2, "Tiger": { "Score": 9 }, "Dragon": { "Score": 2 } },
+          { "Result": 0, "Tiger": { "Score": 2 }, "Dragon": { "Score": 5 } },
+          { "Result": 2, "Tiger": { "Score": 5 }, "Dragon": { "Score": 1 } },
+          { "Result": 0, "Tiger": { "Score": 6 }, "Dragon": { "Score": 9 } },
+          { "Result": 2, "Tiger": { "Score": 13 }, "Dragon": { "Score": 7 } },
+          { "Result": 2, "Tiger": { "Score": 11 }, "Dragon": { "Score": 4 } },
+          { "Result": 0, "Tiger": { "Score": 9 }, "Dragon": { "Score": 11 } },
+          { "Result": 2, "Tiger": { "Score": 9 }, "Dragon": { "Score": 3 } },
+          { "Result": 0, "Tiger": { "Score": 1 }, "Dragon": { "Score": 5 } },
+          { "Result": 2, "Tiger": { "Score": 10 }, "Dragon": { "Score": 6 } },
+          { "Result": 2, "Tiger": { "Score": 9 }, "Dragon": { "Score": 6 } },
+          { "Result": 0, "Tiger": { "Score": 1 }, "Dragon": { "Score": 13 } },
+          { "Result": 2, "Tiger": { "Score": 10 }, "Dragon": { "Score": 6 } },
+          { "Result": 2, "Tiger": { "Score": 11 }, "Dragon": { "Score": 4 } },
+          { "Result": 2, "Tiger": { "Score": 2 }, "Dragon": { "Score": 1 } },
+          { "Result": 0, "Tiger": { "Score": 1 }, "Dragon": { "Score": 5 } },
+          { "Result": 2, "Tiger": { "Score": 7 }, "Dragon": { "Score": 4 } },
+          { "Result": 0, "Tiger": { "Score": 1 }, "Dragon": { "Score": 8 } },
+          { "Result": 2, "Tiger": { "Score": 12 }, "Dragon": { "Score": 8 } },
+          { "Result": 2, "Tiger": { "Score": 13 }, "Dragon": { "Score": 11 } },
+          { "Result": 1, "Tiger": { "Score": 2 }, "Dragon": { "Score": 2 } },
+          { "Result": 2, "Tiger": { "Score": 5 }, "Dragon": { "Score": 1 } },
+          { "Result": 2, "Tiger": { "Score": 12 }, "Dragon": { "Score": 11 } },
+          { "Result": 0, "Tiger": { "Score": 5 }, "Dragon": { "Score": 8 } },
+          { "Result": 2, "Tiger": { "Score": 10 }, "Dragon": { "Score": 5 } },
+          { "Result": 0, "Tiger": { "Score": 1 }, "Dragon": { "Score": 2 } },
+          { "Result": 2, "Tiger": { "Score": 11 }, "Dragon": { "Score": 4 } },
+          { "Result": 2, "Tiger": { "Score": 12 }, "Dragon": { "Score": 5 } },
+          { "Result": 0, "Tiger": { "Score": 11 }, "Dragon": { "Score": 12 } },
+          { "Result": 0, "Tiger": { "Score": 11 }, "Dragon": { "Score": 12 } },
+          { "Result": 1, "Tiger": { "Score": 13 }, "Dragon": { "Score": 13 } },
+          { "Result": 0, "Tiger": { "Score": 2 }, "Dragon": { "Score": 13 } },
+          { "Result": 0, "Tiger": { "Score": 5 }, "Dragon": { "Score": 7 } },
+          { "Result": 2, "Tiger": { "Score": 8 }, "Dragon": { "Score": 1 } },
+          { "Result": 2, "Tiger": { "Score": 8 }, "Dragon": { "Score": 1 } },
+          { "Result": 2, "Tiger": { "Score": 2 }, "Dragon": { "Score": 1 } }
+        ],
+        "MyBetSlips": [],
+        "DayOfDragonWiningQuantity": 22,
+        "DayOfTigerWiningQuantity": 26,
+        "DayOfTieQuantity": 5,
+        "DayOfDragonNumberQuantity": [
+          { "Position": 1, "Quantity": 7 },
+          { "Position": 2, "Quantity": 3 },
+          { "Position": 3, "Quantity": 1 },
+          { "Position": 4, "Quantity": 5 },
+          { "Position": 5, "Quantity": 10 },
+          { "Position": 6, "Quantity": 3 },
+          { "Position": 7, "Quantity": 4 },
+          { "Position": 8, "Quantity": 3 },
+          { "Position": 9, "Quantity": 2 },
+          { "Position": 10, "Quantity": 2 },
+          { "Position": 11, "Quantity": 4 },
+          { "Position": 12, "Quantity": 4 },
+          { "Position": 13, "Quantity": 5 }
+        ],
+        "DayOfTigerNumberQuantity": [
+          { "Position": 1, "Quantity": 7 },
+          { "Position": 2, "Quantity": 5 },
+          { "Position": 3, "Quantity": 3 },
+          { "Position": 4, "Quantity": 0 },
+          { "Position": 5, "Quantity": 6 },
+          { "Position": 6, "Quantity": 3 },
+          { "Position": 7, "Quantity": 4 },
+          { "Position": 8, "Quantity": 3 },
+          { "Position": 9, "Quantity": 7 },
+          { "Position": 10, "Quantity": 4 },
+          { "Position": 11, "Quantity": 5 },
+          { "Position": 12, "Quantity": 3 },
+          { "Position": 13, "Quantity": 3 }
+        ],
+        "MessageStartTime": 637922518259173400,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "1e0ad486-6e88-445d-93b2-8eed2f01cc02",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559229,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:12-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:56:57-04:00",
+          "Betting": "2022-07-01T05:56:57-04:00",
+          "Shuffling": "2022-07-01T05:57:12-04:00",
+          "Deal": "2022-07-01T05:57:15-04:00",
+          "Showdown": "2022-07-01T05:57:21-04:00",
+          "Rest": "2022-07-01T05:57:27-04:00",
+          "End": "2022-07-01T05:57:28-04:00"
+        },
+        "CurrentStage": 3,
+        "NextStageTime": "2022-07-01T05:57:15-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnTrend",
+    "data": [
+      {
+        "GameSn": 36,
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Trends": [
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 6 } }
+        ],
+        "MessageStartTime": 637922518330383900,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnResulting",
+    "data": [
+      {
+        "MemberCode": "LEO007",
+        "GameRoundSN": 410559229,
+        "ResultEntities": [
+          { "Score": 6, "Result": 2 },
+          { "Score": 3, "Result": 0 }
+        ],
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Entities": [["C006"], ["S003"]],
+        "Awards": [0, 8, 9, 18, 28],
+        "AccountSn": 123456,
+        "GameSn": 36,
+        "Trends": [
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 6 } }
+        ],
+        "BetResults": [],
+        "DayOfDragonWiningQuantity": 23,
+        "DayOfTigerWiningQuantity": 26,
+        "DayOfTieQuantity": 5,
+        "DayOfDragonNumberQuantity": [
+          { "Position": 1, "Quantity": 7 },
+          { "Position": 2, "Quantity": 3 },
+          { "Position": 3, "Quantity": 1 },
+          { "Position": 4, "Quantity": 5 },
+          { "Position": 5, "Quantity": 10 },
+          { "Position": 6, "Quantity": 4 },
+          { "Position": 7, "Quantity": 4 },
+          { "Position": 8, "Quantity": 3 },
+          { "Position": 9, "Quantity": 2 },
+          { "Position": 10, "Quantity": 2 },
+          { "Position": 11, "Quantity": 4 },
+          { "Position": 12, "Quantity": 4 },
+          { "Position": 13, "Quantity": 5 }
+        ],
+        "DayOfTigerNumberQuantity": [
+          { "Position": 1, "Quantity": 7 },
+          { "Position": 2, "Quantity": 5 },
+          { "Position": 3, "Quantity": 4 },
+          { "Position": 4, "Quantity": 0 },
+          { "Position": 5, "Quantity": 6 },
+          { "Position": 6, "Quantity": 3 },
+          { "Position": 7, "Quantity": 4 },
+          { "Position": 8, "Quantity": 3 },
+          { "Position": 9, "Quantity": 7 },
+          { "Position": 10, "Quantity": 4 },
+          { "Position": 11, "Quantity": 5 },
+          { "Position": 12, "Quantity": 3 },
+          { "Position": 13, "Quantity": 3 }
+        ],
+        "MessageStartTime": 637922518330383900,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "1e0ad486-6e88-445d-93b2-8eed2f01cc02",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559229,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:15-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:56:57-04:00",
+          "Betting": "2022-07-01T05:56:57-04:00",
+          "Shuffling": "2022-07-01T05:57:12-04:00",
+          "Deal": "2022-07-01T05:57:15-04:00",
+          "Showdown": "2022-07-01T05:57:21-04:00",
+          "Rest": "2022-07-01T05:57:27-04:00",
+          "End": "2022-07-01T05:57:28-04:00"
+        },
+        "CurrentStage": 4,
+        "NextStageTime": "2022-07-01T05:57:21-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "1e0ad486-6e88-445d-93b2-8eed2f01cc02",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559229,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:21-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:56:57-04:00",
+          "Betting": "2022-07-01T05:56:57-04:00",
+          "Shuffling": "2022-07-01T05:57:12-04:00",
+          "Deal": "2022-07-01T05:57:15-04:00",
+          "Showdown": "2022-07-01T05:57:21-04:00",
+          "Rest": "2022-07-01T05:57:27-04:00",
+          "End": "2022-07-01T05:57:28-04:00"
+        },
+        "CurrentStage": 5,
+        "NextStageTime": "2022-07-01T05:57:27-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "1e0ad486-6e88-445d-93b2-8eed2f01cc02",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559229,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:27-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:56:57-04:00",
+          "Betting": "2022-07-01T05:56:57-04:00",
+          "Shuffling": "2022-07-01T05:57:12-04:00",
+          "Deal": "2022-07-01T05:57:15-04:00",
+          "Showdown": "2022-07-01T05:57:21-04:00",
+          "Rest": "2022-07-01T05:57:27-04:00",
+          "End": "2022-07-01T05:57:28-04:00"
+        },
+        "CurrentStage": 6,
+        "NextStageTime": "2022-07-01T05:57:28-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a7576ab6-80bc-4d94-82ea-4c111b26397b",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559400,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:28-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:28-04:00",
+          "Betting": "2022-07-01T05:57:28-04:00",
+          "Shuffling": "2022-07-01T05:57:43-04:00",
+          "Deal": "2022-07-01T05:57:46-04:00",
+          "Showdown": "2022-07-01T05:57:52-04:00",
+          "Rest": "2022-07-01T05:57:58-04:00",
+          "End": "2022-07-01T05:57:59-04:00"
+        },
+        "CurrentStage": 2,
+        "NextStageTime": "2022-07-01T05:57:43-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a7576ab6-80bc-4d94-82ea-4c111b26397b",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559400,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:43-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:28-04:00",
+          "Betting": "2022-07-01T05:57:28-04:00",
+          "Shuffling": "2022-07-01T05:57:43-04:00",
+          "Deal": "2022-07-01T05:57:46-04:00",
+          "Showdown": "2022-07-01T05:57:52-04:00",
+          "Rest": "2022-07-01T05:57:58-04:00",
+          "End": "2022-07-01T05:57:59-04:00"
+        },
+        "CurrentStage": 3,
+        "NextStageTime": "2022-07-01T05:57:46-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnResulting",
+    "data": [
+      {
+        "MemberCode": "LEO007",
+        "GameRoundSN": 410559400,
+        "ResultEntities": [
+          { "Score": 5, "Result": 0 },
+          { "Score": 6, "Result": 2 }
+        ],
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Entities": [["H005"], ["D006"]],
+        "Awards": [2, 6, 11, 17, 31],
+        "AccountSn": 123456,
+        "GameSn": 36,
+        "Trends": [
+          { "Result": 2, "Tiger": { "Score": 6 }, "Dragon": { "Score": 5 } }
+        ],
+        "BetResults": [],
+        "DayOfDragonWiningQuantity": 57,
+        "DayOfTigerWiningQuantity": 59,
+        "DayOfTieQuantity": 8,
+        "DayOfDragonNumberQuantity": [
+          { "Position": 1, "Quantity": 6 },
+          { "Position": 2, "Quantity": 12 },
+          { "Position": 3, "Quantity": 7 },
+          { "Position": 4, "Quantity": 5 },
+          { "Position": 5, "Quantity": 10 },
+          { "Position": 6, "Quantity": 9 },
+          { "Position": 7, "Quantity": 13 },
+          { "Position": 8, "Quantity": 9 },
+          { "Position": 9, "Quantity": 9 },
+          { "Position": 10, "Quantity": 7 },
+          { "Position": 11, "Quantity": 7 },
+          { "Position": 12, "Quantity": 19 },
+          { "Position": 13, "Quantity": 11 }
+        ],
+        "DayOfTigerNumberQuantity": [
+          { "Position": 1, "Quantity": 6 },
+          { "Position": 2, "Quantity": 5 },
+          { "Position": 3, "Quantity": 10 },
+          { "Position": 4, "Quantity": 7 },
+          { "Position": 5, "Quantity": 11 },
+          { "Position": 6, "Quantity": 15 },
+          { "Position": 7, "Quantity": 13 },
+          { "Position": 8, "Quantity": 10 },
+          { "Position": 9, "Quantity": 8 },
+          { "Position": 10, "Quantity": 6 },
+          { "Position": 11, "Quantity": 11 },
+          { "Position": 12, "Quantity": 11 },
+          { "Position": 13, "Quantity": 11 }
+        ],
+        "MessageStartTime": 637922518640465300,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnTrend",
+    "data": [
+      {
+        "GameSn": 36,
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Trends": [
+          { "Result": 2, "Tiger": { "Score": 6 }, "Dragon": { "Score": 5 } }
+        ],
+        "MessageStartTime": 637922518640475300,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a7576ab6-80bc-4d94-82ea-4c111b26397b",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559400,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:46-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:28-04:00",
+          "Betting": "2022-07-01T05:57:28-04:00",
+          "Shuffling": "2022-07-01T05:57:43-04:00",
+          "Deal": "2022-07-01T05:57:46-04:00",
+          "Showdown": "2022-07-01T05:57:52-04:00",
+          "Rest": "2022-07-01T05:57:58-04:00",
+          "End": "2022-07-01T05:57:59-04:00"
+        },
+        "CurrentStage": 4,
+        "NextStageTime": "2022-07-01T05:57:52-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a7576ab6-80bc-4d94-82ea-4c111b26397b",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559400,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:52-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:28-04:00",
+          "Betting": "2022-07-01T05:57:28-04:00",
+          "Shuffling": "2022-07-01T05:57:43-04:00",
+          "Deal": "2022-07-01T05:57:46-04:00",
+          "Showdown": "2022-07-01T05:57:52-04:00",
+          "Rest": "2022-07-01T05:57:58-04:00",
+          "End": "2022-07-01T05:57:59-04:00"
+        },
+        "CurrentStage": 5,
+        "NextStageTime": "2022-07-01T05:57:58-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a7576ab6-80bc-4d94-82ea-4c111b26397b",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559400,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:58-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:28-04:00",
+          "Betting": "2022-07-01T05:57:28-04:00",
+          "Shuffling": "2022-07-01T05:57:43-04:00",
+          "Deal": "2022-07-01T05:57:46-04:00",
+          "Showdown": "2022-07-01T05:57:52-04:00",
+          "Rest": "2022-07-01T05:57:58-04:00",
+          "End": "2022-07-01T05:57:59-04:00"
+        },
+        "CurrentStage": 6,
+        "NextStageTime": "2022-07-01T05:57:59-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a6a9c571-3a53-4e5e-aa6f-7cd3842ef9f9",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559562,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:57:59-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:59-04:00",
+          "Betting": "2022-07-01T05:57:59-04:00",
+          "Shuffling": "2022-07-01T05:58:14-04:00",
+          "Deal": "2022-07-01T05:58:17-04:00",
+          "Showdown": "2022-07-01T05:58:23-04:00",
+          "Rest": "2022-07-01T05:58:29-04:00",
+          "End": "2022-07-01T05:58:30-04:00"
+        },
+        "CurrentStage": 2,
+        "NextStageTime": "2022-07-01T05:58:14-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a6a9c571-3a53-4e5e-aa6f-7cd3842ef9f9",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559562,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:15-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:59-04:00",
+          "Betting": "2022-07-01T05:57:59-04:00",
+          "Shuffling": "2022-07-01T05:58:14-04:00",
+          "Deal": "2022-07-01T05:58:17-04:00",
+          "Showdown": "2022-07-01T05:58:23-04:00",
+          "Rest": "2022-07-01T05:58:29-04:00",
+          "End": "2022-07-01T05:58:30-04:00"
+        },
+        "CurrentStage": 3,
+        "NextStageTime": "2022-07-01T05:58:17-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnTrend",
+    "data": [
+      {
+        "GameSn": 36,
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Trends": [
+          { "Result": 2, "Tiger": { "Score": 5 }, "Dragon": { "Score": 1 } }
+        ],
+        "MessageStartTime": 637922518969111400,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnResulting",
+    "data": [
+      {
+        "MemberCode": "LEO007",
+        "GameRoundSN": 410559562,
+        "ResultEntities": [
+          { "Score": 1, "Result": 0 },
+          { "Score": 5, "Result": 2 }
+        ],
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Entities": [["C001"], ["C005"]],
+        "Awards": [2, 8, 12, 13, 30],
+        "AccountSn": 123456,
+        "GameSn": 36,
+        "Trends": [
+          { "Result": 2, "Tiger": { "Score": 5 }, "Dragon": { "Score": 1 } }
+        ],
+        "BetResults": [],
+        "DayOfDragonWiningQuantity": 23,
+        "DayOfTigerWiningQuantity": 27,
+        "DayOfTieQuantity": 5,
+        "DayOfDragonNumberQuantity": [
+          { "Position": 1, "Quantity": 8 },
+          { "Position": 2, "Quantity": 3 },
+          { "Position": 3, "Quantity": 1 },
+          { "Position": 4, "Quantity": 5 },
+          { "Position": 5, "Quantity": 10 },
+          { "Position": 6, "Quantity": 4 },
+          { "Position": 7, "Quantity": 4 },
+          { "Position": 8, "Quantity": 3 },
+          { "Position": 9, "Quantity": 2 },
+          { "Position": 10, "Quantity": 2 },
+          { "Position": 11, "Quantity": 4 },
+          { "Position": 12, "Quantity": 4 },
+          { "Position": 13, "Quantity": 5 }
+        ],
+        "DayOfTigerNumberQuantity": [
+          { "Position": 1, "Quantity": 7 },
+          { "Position": 2, "Quantity": 5 },
+          { "Position": 3, "Quantity": 4 },
+          { "Position": 4, "Quantity": 0 },
+          { "Position": 5, "Quantity": 7 },
+          { "Position": 6, "Quantity": 3 },
+          { "Position": 7, "Quantity": 4 },
+          { "Position": 8, "Quantity": 3 },
+          { "Position": 9, "Quantity": 7 },
+          { "Position": 10, "Quantity": 4 },
+          { "Position": 11, "Quantity": 5 },
+          { "Position": 12, "Quantity": 3 },
+          { "Position": 13, "Quantity": 3 }
+        ],
+        "MessageStartTime": 637922518969121400,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a6a9c571-3a53-4e5e-aa6f-7cd3842ef9f9",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559562,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:18-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:59-04:00",
+          "Betting": "2022-07-01T05:57:59-04:00",
+          "Shuffling": "2022-07-01T05:58:14-04:00",
+          "Deal": "2022-07-01T05:58:17-04:00",
+          "Showdown": "2022-07-01T05:58:23-04:00",
+          "Rest": "2022-07-01T05:58:29-04:00",
+          "End": "2022-07-01T05:58:30-04:00"
+        },
+        "CurrentStage": 4,
+        "NextStageTime": "2022-07-01T05:58:23-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a6a9c571-3a53-4e5e-aa6f-7cd3842ef9f9",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559562,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:23-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:59-04:00",
+          "Betting": "2022-07-01T05:57:59-04:00",
+          "Shuffling": "2022-07-01T05:58:14-04:00",
+          "Deal": "2022-07-01T05:58:17-04:00",
+          "Showdown": "2022-07-01T05:58:23-04:00",
+          "Rest": "2022-07-01T05:58:29-04:00",
+          "End": "2022-07-01T05:58:30-04:00"
+        },
+        "CurrentStage": 5,
+        "NextStageTime": "2022-07-01T05:58:29-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "a6a9c571-3a53-4e5e-aa6f-7cd3842ef9f9",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559562,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:29-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:57:59-04:00",
+          "Betting": "2022-07-01T05:57:59-04:00",
+          "Shuffling": "2022-07-01T05:58:14-04:00",
+          "Deal": "2022-07-01T05:58:17-04:00",
+          "Showdown": "2022-07-01T05:58:23-04:00",
+          "Rest": "2022-07-01T05:58:29-04:00",
+          "End": "2022-07-01T05:58:30-04:00"
+        },
+        "CurrentStage": 6,
+        "NextStageTime": "2022-07-01T05:58:30-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "c3ed1fe0-c2a0-4026-9265-03d32d8ead18",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559716,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:30-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:58:30-04:00",
+          "Betting": "2022-07-01T05:58:30-04:00",
+          "Shuffling": "2022-07-01T05:58:45-04:00",
+          "Deal": "2022-07-01T05:58:48-04:00",
+          "Showdown": "2022-07-01T05:58:54-04:00",
+          "Rest": "2022-07-01T05:59:00-04:00",
+          "End": "2022-07-01T05:59:01-04:00"
+        },
+        "CurrentStage": 2,
+        "NextStageTime": "2022-07-01T05:58:45-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "c3ed1fe0-c2a0-4026-9265-03d32d8ead18",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559716,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:45-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:58:30-04:00",
+          "Betting": "2022-07-01T05:58:30-04:00",
+          "Shuffling": "2022-07-01T05:58:45-04:00",
+          "Deal": "2022-07-01T05:58:48-04:00",
+          "Showdown": "2022-07-01T05:58:54-04:00",
+          "Rest": "2022-07-01T05:59:00-04:00",
+          "End": "2022-07-01T05:59:01-04:00"
+        },
+        "CurrentStage": 3,
+        "NextStageTime": "2022-07-01T05:58:48-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnResulting",
+    "data": [
+      {
+        "MemberCode": "LEO007",
+        "GameRoundSN": 410559716,
+        "ResultEntities": [
+          { "Score": 10, "Result": 2 },
+          { "Score": 2, "Result": 0 }
+        ],
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Entities": [["C010"], ["C002"]],
+        "Awards": [0, 3, 8, 12, 22, 27, 43],
+        "AccountSn": 123456,
+        "GameSn": 36,
+        "Trends": [
+          { "Result": 0, "Tiger": { "Score": 2 }, "Dragon": { "Score": 10 } }
+        ],
+        "BetResults": [],
+        "DayOfDragonWiningQuantity": 58,
+        "DayOfTigerWiningQuantity": 59,
+        "DayOfTieQuantity": 8,
+        "DayOfDragonNumberQuantity": [
+          { "Position": 1, "Quantity": 6 },
+          { "Position": 2, "Quantity": 12 },
+          { "Position": 3, "Quantity": 7 },
+          { "Position": 4, "Quantity": 5 },
+          { "Position": 5, "Quantity": 10 },
+          { "Position": 6, "Quantity": 9 },
+          { "Position": 7, "Quantity": 13 },
+          { "Position": 8, "Quantity": 9 },
+          { "Position": 9, "Quantity": 9 },
+          { "Position": 10, "Quantity": 8 },
+          { "Position": 11, "Quantity": 7 },
+          { "Position": 12, "Quantity": 19 },
+          { "Position": 13, "Quantity": 11 }
+        ],
+        "DayOfTigerNumberQuantity": [
+          { "Position": 1, "Quantity": 6 },
+          { "Position": 2, "Quantity": 6 },
+          { "Position": 3, "Quantity": 10 },
+          { "Position": 4, "Quantity": 7 },
+          { "Position": 5, "Quantity": 11 },
+          { "Position": 6, "Quantity": 15 },
+          { "Position": 7, "Quantity": 13 },
+          { "Position": 8, "Quantity": 10 },
+          { "Position": 9, "Quantity": 8 },
+          { "Position": 10, "Quantity": 6 },
+          { "Position": 11, "Quantity": 11 },
+          { "Position": 12, "Quantity": 11 },
+          { "Position": 13, "Quantity": 11 }
+        ],
+        "MessageStartTime": 637922519260615600,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnTrend",
+    "data": [
+      {
+        "GameSn": 36,
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Trends": [
+          { "Result": 0, "Tiger": { "Score": 2 }, "Dragon": { "Score": 10 } }
+        ],
+        "MessageStartTime": 637922519260615600,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "c3ed1fe0-c2a0-4026-9265-03d32d8ead18",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559716,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:48-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:58:30-04:00",
+          "Betting": "2022-07-01T05:58:30-04:00",
+          "Shuffling": "2022-07-01T05:58:45-04:00",
+          "Deal": "2022-07-01T05:58:48-04:00",
+          "Showdown": "2022-07-01T05:58:54-04:00",
+          "Rest": "2022-07-01T05:59:00-04:00",
+          "End": "2022-07-01T05:59:01-04:00"
+        },
+        "CurrentStage": 4,
+        "NextStageTime": "2022-07-01T05:58:54-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "c3ed1fe0-c2a0-4026-9265-03d32d8ead18",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559716,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:58:54-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:58:30-04:00",
+          "Betting": "2022-07-01T05:58:30-04:00",
+          "Shuffling": "2022-07-01T05:58:45-04:00",
+          "Deal": "2022-07-01T05:58:48-04:00",
+          "Showdown": "2022-07-01T05:58:54-04:00",
+          "Rest": "2022-07-01T05:59:00-04:00",
+          "End": "2022-07-01T05:59:01-04:00"
+        },
+        "CurrentStage": 5,
+        "NextStageTime": "2022-07-01T05:59:00-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "c3ed1fe0-c2a0-4026-9265-03d32d8ead18",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559716,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:00-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:58:30-04:00",
+          "Betting": "2022-07-01T05:58:30-04:00",
+          "Shuffling": "2022-07-01T05:58:45-04:00",
+          "Deal": "2022-07-01T05:58:48-04:00",
+          "Showdown": "2022-07-01T05:58:54-04:00",
+          "Rest": "2022-07-01T05:59:00-04:00",
+          "End": "2022-07-01T05:59:01-04:00"
+        },
+        "CurrentStage": 6,
+        "NextStageTime": "2022-07-01T05:59:01-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "e48c942e-9231-4a35-8125-73a94ae39a1a",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559893,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:01-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:59:01-04:00",
+          "Betting": "2022-07-01T05:59:01-04:00",
+          "Shuffling": "2022-07-01T05:59:16-04:00",
+          "Deal": "2022-07-01T05:59:19-04:00",
+          "Showdown": "2022-07-01T05:59:25-04:00",
+          "Rest": "2022-07-01T05:59:31-04:00",
+          "End": "2022-07-01T05:59:32-04:00"
+        },
+        "CurrentStage": 2,
+        "NextStageTime": "2022-07-01T05:59:16-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "e48c942e-9231-4a35-8125-73a94ae39a1a",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559893,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:16-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:59:01-04:00",
+          "Betting": "2022-07-01T05:59:01-04:00",
+          "Shuffling": "2022-07-01T05:59:16-04:00",
+          "Deal": "2022-07-01T05:59:19-04:00",
+          "Showdown": "2022-07-01T05:59:25-04:00",
+          "Rest": "2022-07-01T05:59:31-04:00",
+          "End": "2022-07-01T05:59:32-04:00"
+        },
+        "CurrentStage": 3,
+        "NextStageTime": "2022-07-01T05:59:19-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnResulting",
+    "data": [
+      {
+        "MemberCode": "LEO007",
+        "GameRoundSN": 410559893,
+        "ResultEntities": [
+          { "Score": 5, "Result": 2 },
+          { "Score": 3, "Result": 0 }
+        ],
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Entities": [["C005"], ["H003"]],
+        "Awards": [0, 8, 10, 17, 28],
+        "AccountSn": 123456,
+        "GameSn": 36,
+        "Trends": [
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 5 } }
+        ],
+        "BetResults": [],
+        "DayOfDragonWiningQuantity": 59,
+        "DayOfTigerWiningQuantity": 59,
+        "DayOfTieQuantity": 8,
+        "DayOfDragonNumberQuantity": [
+          { "Position": 1, "Quantity": 6 },
+          { "Position": 2, "Quantity": 12 },
+          { "Position": 3, "Quantity": 7 },
+          { "Position": 4, "Quantity": 5 },
+          { "Position": 5, "Quantity": 11 },
+          { "Position": 6, "Quantity": 9 },
+          { "Position": 7, "Quantity": 13 },
+          { "Position": 8, "Quantity": 9 },
+          { "Position": 9, "Quantity": 9 },
+          { "Position": 10, "Quantity": 8 },
+          { "Position": 11, "Quantity": 7 },
+          { "Position": 12, "Quantity": 19 },
+          { "Position": 13, "Quantity": 11 }
+        ],
+        "DayOfTigerNumberQuantity": [
+          { "Position": 1, "Quantity": 6 },
+          { "Position": 2, "Quantity": 6 },
+          { "Position": 3, "Quantity": 11 },
+          { "Position": 4, "Quantity": 7 },
+          { "Position": 5, "Quantity": 11 },
+          { "Position": 6, "Quantity": 15 },
+          { "Position": 7, "Quantity": 13 },
+          { "Position": 8, "Quantity": 10 },
+          { "Position": 9, "Quantity": 8 },
+          { "Position": 10, "Quantity": 6 },
+          { "Position": 11, "Quantity": 11 },
+          { "Position": 12, "Quantity": 11 },
+          { "Position": 13, "Quantity": 11 }
+        ],
+        "MessageStartTime": 637922519576338800,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnTrend",
+    "data": [
+      {
+        "GameSn": 36,
+        "BuCode": "BU003",
+        "TableLimitSn": 102,
+        "Trends": [
+          { "Result": 0, "Tiger": { "Score": 3 }, "Dragon": { "Score": 5 } }
+        ],
+        "MessageStartTime": 637922519576338800,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "e48c942e-9231-4a35-8125-73a94ae39a1a",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559893,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:19-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:59:01-04:00",
+          "Betting": "2022-07-01T05:59:01-04:00",
+          "Shuffling": "2022-07-01T05:59:16-04:00",
+          "Deal": "2022-07-01T05:59:19-04:00",
+          "Showdown": "2022-07-01T05:59:25-04:00",
+          "Rest": "2022-07-01T05:59:31-04:00",
+          "End": "2022-07-01T05:59:32-04:00"
+        },
+        "CurrentStage": 4,
+        "NextStageTime": "2022-07-01T05:59:25-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "e48c942e-9231-4a35-8125-73a94ae39a1a",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559893,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:25-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:59:01-04:00",
+          "Betting": "2022-07-01T05:59:01-04:00",
+          "Shuffling": "2022-07-01T05:59:16-04:00",
+          "Deal": "2022-07-01T05:59:19-04:00",
+          "Showdown": "2022-07-01T05:59:25-04:00",
+          "Rest": "2022-07-01T05:59:31-04:00",
+          "End": "2022-07-01T05:59:32-04:00"
+        },
+        "CurrentStage": 5,
+        "NextStageTime": "2022-07-01T05:59:31-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "e48c942e-9231-4a35-8125-73a94ae39a1a",
+        "BettingSecond": 15,
+        "GameRoundSn": 410559893,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:31-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:59:01-04:00",
+          "Betting": "2022-07-01T05:59:01-04:00",
+          "Shuffling": "2022-07-01T05:59:16-04:00",
+          "Deal": "2022-07-01T05:59:19-04:00",
+          "Showdown": "2022-07-01T05:59:25-04:00",
+          "Rest": "2022-07-01T05:59:31-04:00",
+          "End": "2022-07-01T05:59:32-04:00"
+        },
+        "CurrentStage": 6,
+        "NextStageTime": "2022-07-01T05:59:32-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  },
+  {
+    "name": "OnRefreshGameRound",
+    "data": [
+      {
+        "ID": "05a46bcb-0ec9-4859-8c96-ba2298d2a5b0",
+        "BettingSecond": 15,
+        "GameRoundSn": 410560049,
+        "TableLimitSn": 102,
+        "BuCode": "BU003",
+        "GameSn": 36,
+        "SystemClock": "2022-07-01T05:59:32-04:00",
+        "Times": {
+          "NewGame": "2022-07-01T05:59:32-04:00",
+          "Betting": "2022-07-01T05:59:32-04:00",
+          "Shuffling": "2022-07-01T05:59:47-04:00",
+          "Deal": "2022-07-01T05:59:50-04:00",
+          "Showdown": "2022-07-01T05:59:56-04:00",
+          "Rest": "2022-07-01T06:00:02-04:00",
+          "End": "2022-07-01T06:00:03-04:00"
+        },
+        "CurrentStage": 2,
+        "NextStageTime": "2022-07-01T05:59:47-04:00",
+        "CurrentRound": 0,
+        "MessageKey": null
+      }
+    ]
+  }
+]
